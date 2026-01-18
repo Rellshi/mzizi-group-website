@@ -1,0 +1,124 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Inter', sans-serif;
+color: #000;
+background-color: #fff;
+line-height: 1.6;
+}
+
+.container {
+width: 90%;
+max-width: 1100px;
+margin: auto;
+}
+
+.header {
+border-bottom: 2px solid #0f6b3f;
+padding: 1rem 0;
+}
+
+.nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+color: #0f6b3f;
+font-weight: 700;
+}
+
+nav a {
+margin-left: 1.2rem;
+text-decoration: none;
+color: #000;
+font-weight: 500;
+}
+
+.btn {
+background: #0f6b3f;
+color: #fff;
+padding: 0.6rem 1.2rem;
+border-radius: 4px;
+text-decoration: none;
+}
+
+.btn-light {
+background: #fff;
+color: #0f6b3f;
+border: 2px solid #0f6b3f;
+}
+
+.hero {
+background: #0f6b3f;
+color: #fff;
+padding: 4rem 0;
+text-align: center;
+}
+
+.hero h2 {
+font-size: 2.2rem;
+margin-bottom: 1rem;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 2rem;
+}
+
+.about-preview,
+.services-preview,
+.coverage,
+.why-us-preview {
+padding: 4rem 0;
+}
+
+.highlight-box,
+.cta-box {
+background: #f4f4f4;
+padding: 2rem;
+border-left: 5px solid #0f6b3f;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 1rem;
+margin-top: 2rem;
+}
+
+.card {
+border: 1px solid #ddd;
+padding: 1.5rem;
+font-weight: 600;
+}
+
+.center {
+text-align: center;
+margin-top: 2rem;
+}
+
+.coverage {
+background: #000;
+color: #fff;
+text-align: center;
+}
+
+.countries {
+margin-top: 1rem;
+font-weight: 600;
+}
+
+.footer {
+background: #000;
+color: #fff;
+padding: 1.5rem 0;
+text-align: center;
+font-size: 0.9rem;
+}
